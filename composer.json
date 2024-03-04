@@ -1,0 +1,19 @@
+{
+    "name": "fontai/propel2-fileupload-behavior",
+    "version": "1.0",
+    "description": "Fontai Propel2 file upload behavior",
+    "type": "propel-behavior",
+    "extra": {
+        "name": "file_upload",
+        "class": "\\Fontai\\FileUploadBehavior"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "propel/propel": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fontai\\": "src"
+        }
+    }
+}
